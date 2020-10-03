@@ -30,6 +30,7 @@ struct node* leftRotate(struct node* root){
     return y;
 }
 
+int a;
 int height(struct node* N){
     if(N == NULL)
         return 0;
