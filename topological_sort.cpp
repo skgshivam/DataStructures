@@ -91,7 +91,7 @@ int main()
 { 
 	// Create a graph given in the above diagram 
 	Graph g(6); 
-	g.addEdge(5, 2); 
+	g.addEdge(5, 2); `// Edges of the graph
 	g.addEdge(5, 0); 
 	g.addEdge(4, 0); 
 	g.addEdge(4, 1); 
@@ -101,7 +101,7 @@ int main()
 	cout << "Following is a Topological Sort of the given "
 			"graph \n"; 
 	
-	// Function Call 
+	/
 	g.topologicalSort(); 
 
 	return 0; 
