@@ -1,5 +1,5 @@
 // A C++ program to print topological 
-// sorting of a DAG 
+// sorting of a Directed Acyclic Graph
 #include <iostream> 
 #include <list> 
 #include <stack> 
